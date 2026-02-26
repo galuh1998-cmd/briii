@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BRImo Ramadhan</title>
+    <style>
+        /* Membuat gambar memenuhi seluruh layar tanpa margin dan padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        /* Mengatur gambar agar memenuhi layar */
+        .full-screen-image {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img 
+        src="https://imgur.com/a/9rOiimo" 
+        alt="BRImo Ramadhan" 
+        class="full-screen-image" 
+        onclick="window.location.href='kupon.html';" 
+    />
+</body>
+</html>
